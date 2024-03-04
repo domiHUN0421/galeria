@@ -1,0 +1,21 @@
+nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  font-size: 20px;
+  color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+}
