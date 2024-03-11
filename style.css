@@ -1,5 +1,5 @@
 nav {
-  background-color: black;
+  background-color: pink;
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -10,12 +10,13 @@ nav {
 
 nav a {
   font-size: 20px;
-  color: aqua;
+  color: rgb(12, 12, 12);
 }
 
 @media screen and (max-width: 600px) {
   nav {
     flex-direction: column;
     height: auto;
+    background-color: red;
   }
 }
